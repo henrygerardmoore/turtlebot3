@@ -17,6 +17,7 @@
 #ifndef TURTLEBOT3_NODE__CONTROL_TABLE_HPP_
 #define TURTLEBOT3_NODE__CONTROL_TABLE_HPP_
 
+#include <cstdint>
 #include <stdlib.h>
 
 namespace robotis
@@ -37,7 +38,7 @@ typedef struct
   uint8_t rw;
 } ControlItem;
 
-typedef struct
+typedef struct ControlTable
 {
   ControlItem model_number = {0, EEPROM, 2, READ};
   ControlItem model_information = {2, EEPROM, 4, READ};

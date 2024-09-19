@@ -18,8 +18,6 @@
 #define TURTLEBOT3_NODE__DEVICES__DEVICES_HPP_
 
 #include <memory>
-#include <string>
-#include <utility>
 
 #include <rclcpp/rclcpp.hpp>
 

@@ -14,7 +14,15 @@
 //
 // Author: Darby Lim
 
+#include "turtlebot3_node/devices/motor_power.hpp"
+#include "turtlebot3_node/devices/reset.hpp"
+#include "turtlebot3_node/devices/sound.hpp"
+#include "turtlebot3_node/sensors/battery_state.hpp"
+#include "turtlebot3_node/sensors/imu.hpp"
+#include "turtlebot3_node/sensors/joint_state.hpp"
+#include "turtlebot3_node/sensors/sensor_state.hpp"
 #include "turtlebot3_node/turtlebot3.hpp"
+
 
 #include <memory>
 #include <string>

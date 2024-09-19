@@ -17,14 +17,11 @@
 #ifndef TURTLEBOT3_NODE__TURTLEBOT3_HPP_
 #define TURTLEBOT3_NODE__TURTLEBOT3_HPP_
 
-#include <array>
 #include <chrono>
 #include <list>
 #include <map>
 #include <memory>
-#include <mutex>
 #include <string>
-#include <queue>
 
 #include <tf2_ros/transform_broadcaster.h>
 
@@ -38,15 +35,8 @@
 
 #include "turtlebot3_node/control_table.hpp"
 #include "turtlebot3_node/devices/devices.hpp"
-#include "turtlebot3_node/devices/motor_power.hpp"
-#include "turtlebot3_node/devices/reset.hpp"
-#include "turtlebot3_node/devices/sound.hpp"
 #include "turtlebot3_node/dynamixel_sdk_wrapper.hpp"
 #include "turtlebot3_node/odometry.hpp"
-#include "turtlebot3_node/sensors/battery_state.hpp"
-#include "turtlebot3_node/sensors/imu.hpp"
-#include "turtlebot3_node/sensors/joint_state.hpp"
-#include "turtlebot3_node/sensors/sensor_state.hpp"
 #include "turtlebot3_node/sensors/sensors.hpp"
 
 namespace robotis

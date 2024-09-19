@@ -20,15 +20,8 @@
 #include <rcutils/logging_macros.h>
 #include <dynamixel_sdk/dynamixel_sdk.h>
 
-#include <algorithm>
-#include <array>
-#include <chrono>
-#include <map>
-#include <memory>
 #include <mutex>
 #include <string>
-#include <thread>
-#include <utility>
 
 #define LOG_INFO RCUTILS_LOG_INFO_NAMED
 #define LOG_WARN RCUTILS_LOG_WARN_NAMED
